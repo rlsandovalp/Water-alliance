@@ -1,0 +1,176 @@
+*****************************************************************************
+ParFlow Output Log
+	Version         : v3.11.0
+	Compiled on     : Sep  7 2022 14:45:49
+*****************************************************************************
+==============================================
+BEGIN Log Info (SolverRichards)
+
+Transient Problem Solved.
+-------------------------
+
+Total Timesteps: 1
+
+-------------------------
+Sequence #       Time         \Delta t         Dumpfile #   Recompute?
+----------   ------------   ------------ -     ----------   ----------
+  000000     0.000000e+00   0.000000e+00 i       000000          n
+  000001     1.000000e+00   1.000000e+00 f       000001          y
+
+Overland flow Results
+  000000     0.000000e+00   0.000000e+00
+  000001     1.000000e+00   1.000000e+00
+
+END Log Info
+==============================================
+==============================================
+BEGIN Log Info (Globals)
+
+Run Name: /home/leonardo/Documents/Codes_git/Water-alliance/Codes/Lombardy
+Logging Level = 1
+Num processes = 1
+Process grid = (1,1,1)
+
+END Log Info
+==============================================
+==============================================
+BEGIN Log Info (Timing)
+
+Solver Setup:
+  wall clock time   = 0.216000 seconds
+  wall MFLOPS = 0.000000 (0)
+Solver:
+  wall clock time   = 4.544000 seconds
+  wall MFLOPS = 0.175898 (799281)
+Richards Exclude 1st Time Step:
+  wall clock time   = 0.000000 seconds
+  wall MFLOPS = 0.000000 (0)
+Solver Cleanup:
+  wall clock time   = 0.018000 seconds
+  wall MFLOPS = 0.000000 (0)
+Matvec:
+  wall clock time   = 0.000000 seconds
+  wall MFLOPS = 0.000000 (0)
+PFSB I/O:
+  wall clock time   = 0.000000 seconds
+  wall MFLOPS = 0.000000 (0)
+PFB I/O:
+  wall clock time   = 0.385600 seconds
+  wall MFLOPS = 0.000000 (0)
+CLM:
+  wall clock time   = 0.000000 seconds
+  wall MFLOPS = 0.000000 (0)
+PFSOL Read:
+  wall clock time   = 0.154300 seconds
+  wall MFLOPS = 0.000000 (0)
+Clustering:
+  wall clock time   = 2.858400 seconds
+  wall MFLOPS = 0.000000 (0)
+Permeability Face:
+  wall clock time   = 0.000000 seconds
+  wall MFLOPS = 0.000000 (0)
+Godunov Advection:
+  wall clock time   = 0.000000 seconds
+  wall MFLOPS = 0.000000 (0)
+Geometries:
+  wall clock time   = 1.995800 seconds
+  wall MFLOPS = 0.000000 (0)
+SubsrfSim:
+  wall clock time   = 0.016600 seconds
+  wall MFLOPS = 0.000000 (0)
+Porosity:
+  wall clock time   = 0.004700 seconds
+  wall MFLOPS = 0.000000 (0)
+PhaseRelPerm:
+  wall clock time   = 0.049100 seconds
+  wall MFLOPS = 0.000020 (1)
+PFMG:
+  wall clock time   = 0.000000 seconds
+  wall MFLOPS = 0.000000 (0)
+HYPRE_Copies:
+  wall clock time   = 0.000000 seconds
+  wall MFLOPS = 0.000000 (0)
+NL_F_Eval:
+  wall clock time   = 0.154500 seconds
+  wall MFLOPS = 0.000006 (1)
+KINSol:
+  wall clock time   = 0.162500 seconds
+  wall MFLOPS = 4.918652 (799281)
+
+END Log Info
+==============================================
+==============================================
+BEGIN Log Info (ParFlow Total Time)
+
+Total Run Time: 4.794800 seconds
+
+Maximum memory used on processor 0 : 435 MB
+
+
+BEGIN(Contents of /proc/56310/status)
+Name:	parflow
+Umask:	0002
+State:	R (running)
+Tgid:	56310
+Ngid:	0
+Pid:	56310
+PPid:	56301
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	128
+Groups:	4 24 27 30 46 120 131 132 1000 
+NStgid:	56310
+NSpid:	56310
+NSpgid:	56310
+NSsid:	42416
+VmPeak:	  655220 kB
+VmSize:	  270480 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	  152888 kB
+VmRSS:	  105756 kB
+RssAnon:	   95140 kB
+RssFile:	   10616 kB
+RssShmem:	       0 kB
+VmData:	  113444 kB
+VmStk:	     136 kB
+VmExe:	    3800 kB
+VmLib:	    9580 kB
+VmPTE:	     280 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+Threads:	3
+SigQ:	0/30956
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000000000
+SigCgt:	00000001800004e0
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Seccomp_filters:	0
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	11
+Cpus_allowed_list:	0,4
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	145
+nonvoluntary_ctxt_switches:	57
+
+
+END(Contents of /proc/56310/status)
+
+Memory in use : 3 MB in 187 allocs, 92 MB reserved ( 90 unused)
+
+
+END Log Info
+==============================================
