@@ -6,3 +6,5 @@ then used by Parflow. Apparently that can be done with rasterio. Apparently auth
 QGis is a bad idea.
 
 - Write scripts to add geological structures to the domain
+
+- Try Juan's idea
