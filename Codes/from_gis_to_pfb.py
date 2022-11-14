@@ -1,8 +1,9 @@
-from qgis import processing
 
 lombardy_shp_pr = '/home/leonardo/Documents/Codes_git/Water-alliance/Source/GIS/area_lombardia_pr.shp'
 
 rasterized = '/home/leonardo/Documents/Codes_git/Water-alliance/Source/GIS/rasterized.tif'
+
+
 processing.run("gdal:rasterize", {'INPUT':lombardy_shp_pr,'FIELD':'ID_2','BURN':None,\
     'USE_Z':False,'UNITS':0,'WIDTH':250,'HEIGHT':250,\
         'EXTENT':'8.4994,11.4287,44.6809,46.6381 [EPSG:32632]','NODATA':0,'OPTIONS':''\
